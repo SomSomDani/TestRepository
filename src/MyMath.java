@@ -1,7 +1,19 @@
 
 public class MyMath {
 
-		//	statische Members (Methoden,Felder)
+	//Wichtig
+	/*
+	 * Statische Members (Felder und Methoden können im HauptProgramm 
+	 * oder in anderen Klassen ohne Erzeugung einer Instanz verwendet werden
+	 * es muss nur der Klassenname und durch Punkt getrennt der Membername angegeben
+	 * werden
+	 * 
+	 * 
+	 * 
+	 * 
+	 */
+	
+	//	statische Members (Methoden,Felder)
 	public static final double MyPi= 3.1415;
 	// würde man so nicht machen
 	public final double MyPi_NonStatic= 3.1415;
